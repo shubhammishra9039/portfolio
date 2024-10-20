@@ -115,7 +115,7 @@ ul {
   position: relative;
 }
 
-.btn {
+.btnB {
   font-size: 14px;
   font-weight: 500;
   padding: 12px 35px;
@@ -127,7 +127,7 @@ ul {
   background: var(--skin-color);
   transition: all 0.3s ease;
 }
-.btn:hover {
+.btnB:hover {
   transform: scale(1.05);
 }
 .shadow-dark {
@@ -478,7 +478,6 @@ p {
 /* ==============skill =============== */
 /* ==============project =============== */
 
-
 .categories {
   text-align: center;
   margin-bottom: 30px;
@@ -496,7 +495,7 @@ p {
   transition: all 0.3s ease;
 }
 
-.categories .filter-btn.active, 
+.categories .filter-btn.active,
 .categories .filter-btn:hover {
   background-color: var(--bg-black-100);
   color: var(--text-bg-black-700);
@@ -559,15 +558,16 @@ p {
   font-size: 1rem;
   margin: 10px;
   transition: all 0.3s ease;
+  border-radius: 25px;
+  background-color: var(--skin-color);
 }
 
 .btn:hover {
-  background-color:var(--bg-black-900);
-  border-color:var(--bg-black-900);
+  background-color: var(--bg-black-900);
+  border-color: var(--bg-black-900);
 }
 
 /* ==============project =============== */
-
 
 .about .about-content .education {
   flex: 0 0 50%;
