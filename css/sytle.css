@@ -979,6 +979,19 @@ p {
   #MenuBtn {
     display: block;
   }
+  .projects-gallery{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .project-item
+  {
+    width: auto;
+  }
 }
 
 .mobile-nav-active .aside {
